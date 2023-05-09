@@ -1,21 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/style.css">
     <title>Tutorshop Admin Panel</title>
+
 </head>
+
 <body>
-<div class="side-menu">
+    <div class="side-menu">
         <div class="brand-name">
             <img src="img/logo-white.png" alt="" width="140px">
         </div>
         <ul>
-            <a href="index.php">
+            <a href="index.html">
                 <li><span>Dashboard</span></li>
             </a>
             <a href="students.html">
@@ -33,9 +34,6 @@
             <a href="transactions.html">
                 <li><span>Transactions</span></li>
             </a>
-            <a href="settings.html">
-                <li><span>Settings</span></li>
-            </a>
         </ul>
     </div>
     <div class="container">
@@ -43,13 +41,13 @@
             <div class="nav">
                 <div class="search">
                     <input type="text" placeholder="Search...">
-                    <button type="submit"><img src="icon/search (1).png" alt="" ></button>
+                    <button type="submit"><img src="icon/search.png" alt="" ></button>
                 </div>
                 <div class="user">
                     <a href="#" class="btn">Add New</a>
-                    <img src="icon/bell.png" alt="">
+                    <img src="icon/smile.png" alt="">
                     <div class="img-case">
-                        <img src="icon/user.png" alt="">
+                        <img src="icon/smile.png" alt="">
                     </div>
                 </div>
             </div>
@@ -58,27 +56,26 @@
             <div class="cards">
                 <div class="card">
                     <div class="box">
-                        <h1>2194</h1>
-                        <h3>Students</h3>
+                        <h3>2194 Students</h3>
+                        <h3>530 Teachers</h3>
+                        <h3>112 Subjects</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="icon/smile.png" alt="">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <h1>530</h1>
-                        <h3>Teachers</h3>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>5</h1>
-                        <h3>Subjects</h3>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>330000</h1>
+                        <h1>Php 33,095.00</h1>
                         <h3>Income</h3>
                     </div>
+                   
+                </div>
+                <div class="card">
+                    <img src="image/graph1.png" style="max-width: 100%; max-height: 100%;" alt="">
+                </div>
+                <div class="card">
+                    <img src="image/graph2.png" style="max-width: 100%; max-height: 100%;" alt="">
                 </div>
             </div>
             <div class="content-2">
@@ -95,7 +92,7 @@
                             <th>Option</th>
                         </tr>
                         <tr>
-                            <td>Froilan A. Emeliano</td>
+                            <td>Mercia Zeb</td>
                             <td>WMSU</td>
                             <td>Php 199</td>
                             <td>
@@ -103,7 +100,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Froilan A. Emeliano</td>
+                            <td>Katharyn Clarence</td>
                             <td>WMSU</td>
                             <td>Php 199</td>
                             <td>
@@ -111,7 +108,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Froilan A. Emeliano</td>
+                            <td>Laila Junior</td>
                             <td>WMSU</td>
                             <td>Php 199</td>
                             <td>
@@ -119,7 +116,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Froilan A. Emeliano</td>
+                            <td>Em Shaye</td>
                             <td>WMSU</td>
                             <td>Php 199</td>
                             <td>
@@ -127,7 +124,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Froilan A. Emeliano</td>
+                            <td>Lacie Docia</td>
                             <td>WMSU</td>
                             <td>Php 199</td>
                             <td>
@@ -135,7 +132,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Froilan A. Emeliano</td>
+                            <td>Adrian Gay</td>
                             <td>WMSU</td>
                             <td>Php 199</td>
                             <td>
@@ -182,4 +179,5 @@
         </div>
     </div>
 </body>
+
 </html>
